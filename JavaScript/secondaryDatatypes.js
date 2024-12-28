@@ -23,5 +23,10 @@ console.log(objType2)
 console.log(objType2.boxoffice)
 console.log(objType2["release"])
 
-// objType3 = new Object()
-// console.log(objType3);
+//OBJECT Example 3
+//objType3=new Object()
+//objType3["Movie"]="SanthoshSubramaniam"
+//objType3["budget"]="20cr"
+//objType3["boxOffice"]="20cr"
+//objType3["release"]="Worldwide"
+//console.log(objType3);
