@@ -12,9 +12,9 @@ console.log("DIVISION")
 console.log(a/b)
 console.log("MODULE")
 console.log(a%b)
+
+
 console.log("AND OPERATOR")
-
-
 if(a>b && a>c)
 {
     console.log("a is greater")
@@ -27,6 +27,8 @@ else if(b>c)
 else{
     console.log("c is greater")
 }
+
+
 console.log("NOT OPERATOR")
 if(a!=b)
 {
@@ -35,6 +37,7 @@ if(a!=b)
 else{
     console.log("a is  equal to b")
 }
+
 console.log("OR OPERATOR")
 if(a<b||a<c)
 {
@@ -43,15 +46,20 @@ if(a<b||a<c)
 else{
     console.log(b)
 }
+
+
 console.log("SHIFT OPERATOR")
  console.log(a<<2)
  console.log(b<<2)
+
 console.log("INCREMENT OPERATOR")
 console.log(a++,"and",a--)
 console.log(b++,"and",b--)
+
 console.log("CAP OPERATOR")
 console.log(a^5)
 console.log(b^5)
+
 console.log("DO WHILE")
 let i=0
 let text=""
@@ -62,13 +70,20 @@ do{
 while(d<5)
     console.log("FOR IN AND FOR OF OPERATOR")
 var arr = [3, 5, 7];
-arr.foo = "hello";
+
 console.log("RESULT FOR IN")
 for (var d in arr) {
-  console.log(i); 
+  console.log(d); 
 }
+
 console.log("RESULT FOR OF") 
 for (var d of arr) {
    
   console.log(d); 
 }
+
+console.log("FOREACH")
+array=[10,20,30];
+array.forEach((element,index) =>
+console.log("element",element,"is in index",index)
+)
