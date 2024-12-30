@@ -1,0 +1,29 @@
+.boxModel{
+    text-align:center;
+    font-family: Arial;
+    color:palevioletred;
+    font-size:50px;
+    margin: 40px;
+    border: 10px;
+    border-style: double;
+    
+}
+#idSEg{
+    text-align:center;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+    padding: 20px;
+    cursor: pointer;
+    list-style-type: none;
+}
+li:hover
+{
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding:10px;
+}
