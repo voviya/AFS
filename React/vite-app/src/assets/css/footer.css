@@ -1,0 +1,14 @@
+.Foot {
+    background-color: aquamarine;
+    padding: 15px;
+    text-align: center;
+    margin-top: 450px;
+  }
+
+  .label{
+    text-align: center; 
+  }
+  
+button,input{
+  margin-top: 25px;
+}

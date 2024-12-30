@@ -5,6 +5,7 @@ import Gallery from './Components/FunctionComponents/Gallery';
 import About from './Components/FunctionComponents/About';
 import Contact from './Components/FunctionComponents/Contact';
 import Navbar from './Components/FunctionComponents/Navbar';
+import Footer from './Components/FunctionComponents/Footer';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
  
 function App() {
@@ -12,22 +13,28 @@ function App() {
   return (
    <div>
 
-<BrowserRouter>
-<Navbar>
-<Routes>
-  <Route path="/" element={<Home/>}/>                   
-  <Route path="/about" element={<About/>}/> 
-  <Route path="/gallery" element={<Gallery/>}/>
-  <Route path="/contact" element={<Contact/>}/>
-</Routes>
-</Navbar>
-</BrowserRouter>
-
+    <BrowserRouter>
+        <Navbar/>
+          <Routes>
+            <Route path="/"element={<Home/>}/>
+            <Route path="/about"element={<About college="KEC" clg1="kongu Arts" clg2="Kongu"/>}/>
+            <Route path="/contact"element={<Contact/>}/>
+            <Route path="/Gallery"element={<Gallery/>}/>
+          </Routes>
+    </BrowserRouter>
+    <div>
+    <footer>
+      <Footer/>
+    </footer>
+    </div>
+   {/* without Routing, all the components are in the same home page 
     <Home/>
     <About college="KEC" clg1="kongu Arts" clg2="Kongu"/>
     <Gallery/>
     <Contact/>
     <ClassEg/>
+    */}
+
    </div>
   )
 }

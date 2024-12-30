@@ -11,7 +11,7 @@ textAlign:"center"
     return (
     <div><h1 style={styling}>This is Home page</h1>
         <h2 className='boxModel'> Navbar External Styling</h2>
-        <p><b>To display 200 words use - lorem200</b></p>
+        <p id = "idSeg" ><b>To display 200 words use - lorem200</b></p>
           </div>
     )
 
