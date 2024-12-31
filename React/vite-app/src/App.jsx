@@ -6,6 +6,7 @@ import About from './Components/FunctionComponents/About';
 import Contact from './Components/FunctionComponents/Contact';
 import Navbar from './Components/FunctionComponents/Navbar';
 import Footer from './Components/FunctionComponents/Footer';
+import UseEffect from './Components/FunctionComponents/UseEffect';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
  
 function App() {
@@ -18,8 +19,9 @@ function App() {
           <Routes>
             <Route path="/"element={<Home/>}/>
             <Route path="/about"element={<About college="KEC" clg1="kongu Arts" clg2="Kongu"/>}/>
-            <Route path="/contact"element={<Contact/>}/>
             <Route path="/Gallery"element={<Gallery/>}/>
+            <Route path="/UseEffect"element={<UseEffect/>}/>
+            <Route path="/contact"element={<Contact/>}/>
           </Routes>
     </BrowserRouter>
     <div>
