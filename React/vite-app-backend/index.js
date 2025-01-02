@@ -16,4 +16,6 @@ app.get('/json',(req,res)=>
 
 })
 
-
+app.get('/static',(req,res)=>{
+    res.sendFile('vite-app-backend\index.html')
+})
