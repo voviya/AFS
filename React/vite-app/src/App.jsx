@@ -7,6 +7,9 @@ import Contact from './Components/FunctionComponents/Contact';
 import Navbar from './Components/FunctionComponents/Navbar';
 import Footer from './Components/FunctionComponents/Footer';
 import UseEffect from './Components/FunctionComponents/UseEffect';
+import UseRef from './Components/FunctionComponents/UseRef';
+import UseContext from './Components/FunctionComponents/UseContext';
+import UseMemo from './Components/FunctionComponents/UseMemo';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
  
 function App() {
@@ -21,6 +24,9 @@ function App() {
             <Route path="/about"element={<About college="KEC" clg1="kongu Arts" clg2="Kongu"/>}/>
             <Route path="/Gallery"element={<Gallery/>}/>
             <Route path="/UseEffect"element={<UseEffect/>}/>
+            <Route path="/UseRef"element={<UseRef/>}/>
+            <Route path="/UseContext"element={<UseContext/>}/>
+            <Route path="/UseMemo"element={<UseMemo/>}/>
             <Route path="/contact"element={<Contact/>}/>
           </Routes>
     </BrowserRouter>
