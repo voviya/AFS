@@ -10,6 +10,8 @@ import UseEffect from './Components/FunctionComponents/UseEffect';
 import UseRef from './Components/FunctionComponents/UseRef';
 import UseContext from './Components/FunctionComponents/UseContext';
 import UseMemo from './Components/FunctionComponents/UseMemo';
+import SignUp from './Components/FunctionComponents/SignUp';
+import Login from './Components/FunctionComponents/Login';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
  
 function App() {
@@ -27,6 +29,8 @@ function App() {
             <Route path="/UseRef"element={<UseRef/>}/>
             <Route path="/UseContext"element={<UseContext/>}/>
             <Route path="/UseMemo"element={<UseMemo/>}/>
+            <Route path="/SignUp"element={<SignUp/>}/>
+            <Route path="/Login"element={<Login/>}/>
             <Route path="/contact"element={<Contact/>}/>
           </Routes>
     </BrowserRouter>
