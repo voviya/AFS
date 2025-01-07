@@ -11,7 +11,7 @@ function SignUp() {
 
     var signup = async (event) => {
         event.preventDefault()//prevents the default loading
-        var req = await axios.post("http://127.0.0.1:3001/signup",
+        var req = await axios.post("https://afs-2.onrender.com/signup",
             {
                 firstName: firstName,
                 lastName: lastName,

@@ -7,7 +7,7 @@ function Login() {
     var navigate=useNavigate();
     var login = async (event) => {
         event.preventDefault()//prevent the default loading
-        var req=await axios.post('http://127.0.0.1:3001/login',{
+        var req=await axios.post('https://afs-2.onrender.com/login',{
             email,password
         })
         console.log(req.data);//console.log(req);
